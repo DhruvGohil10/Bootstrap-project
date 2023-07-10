@@ -1,0 +1,270 @@
+body{
+   font-family: 'Roboto', sans-serif;
+   overflow-x: hidden;
+}
+
+a{
+   text-decoration: none;
+}
+
+
+.nav-background{
+   background-color: #4b6877 !important;
+}
+
+.navbar{
+   background-color: #4b6877c5 !important;
+}
+
+.nav-link, .navbar-brand{
+   color: white !important;
+}
+
+.navbar-brand{
+   font-weight: 500;
+   font-size: 1.5rem;
+   letter-spacing: 3px;
+}
+
+/* about nav ------------------- */
+.about-navbar{
+   background-color: #F3F8FA !important;
+   display: flex;
+   align-items: center;
+   
+}
+
+.about-nav-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1.6rem .9rem;
+}
+
+.about-nav-links a{
+   color: #444444;
+}
+.active-link{
+   color: rgb(107, 107, 240) !important;
+}
+.nav-tittle{
+   color: #444444;
+   font-size: 1.8rem;
+}
+
+/* ------------------- */
+.card-height{
+   height: 15rem !important;
+}
+
+/* video background--------------------------------- */
+.video-background{
+   background-color: #F3F8FA;
+}
+
+.video-white-container{
+   width: 100%;
+   background-color: white;
+}
+
+.width{
+   width: 90%;
+}
+
+.icon-box{
+   width: 5rem;
+   height: 5rem;
+   background-color: #d3e7f1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+}
+.icon-box i{
+   color: #4b6877;
+}
+/* cards -------------------------------------- */
+.card{
+   position: relative;
+   border: none;
+   height: 37rem;
+}
+
+.card-img-box{
+   border: none;
+   overflow: hidden;
+}
+
+.card-content{
+   position: absolute;
+   width: 90%;
+   bottom: 3rem;
+   background-color: white;
+   right: 1rem;
+}
+
+.card-img{
+   transition: all .5s;
+
+}
+
+.card-img-box:hover .card-img{
+   transform: scale(1.1);
+}
+
+/* pricing ---------------------------------------------- */
+.pricing-background{
+   background-color: #F3F8FA;
+}
+
+.pricing-card{
+   background-color: white;
+}
+
+.text-blue{
+   color: #68A4C4;
+}
+
+.line-through{
+   text-decoration: line-through;
+   color: rgb(156, 156, 156) !important;
+}
+
+.pricing-btn{
+   padding: .4rem 0rem;
+   border: none;
+   outline: none;
+   background-color: #2f4d5e;
+   color: white;
+   border-radius: 10rem;
+   width: 10rem;
+   display: block;
+   margin: 2rem auto 0 auto;
+}
+
+.p-card-middle{
+ height: 40rem;
+}
+
+.shadow-middle{
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pricing-btn-blue{
+   background-color: #68A4C4;
+}
+
+
+/* * footer ----------------------- */ 
+.footer-background{
+   background-color: #0D2735;
+   color: #F6F7F8;
+}
+
+.buttonIn {
+   width: 90%;
+   position: relative;
+
+}
+
+#input {
+   margin: 0px;
+   padding: 0px;
+   padding-left: 1rem;
+   width: 100%;
+   outline: none;
+   border: none;
+   height: 43px;
+   border-radius: 5rem;
+}
+
+#newsletter-btn {
+   position: absolute;
+   top: 0;
+   border-radius: 5rem;
+   right: .32rem;
+   z-index: 2;
+   border: none;
+   top: 4px;
+   height: 35px;
+   width: 6rem;
+   cursor: pointer;
+   color: white;
+   background-color: #68A4C4;
+}
+
+.footer-blue-text{
+   color: #68A4C4;
+}
+
+.divider{
+   width: 100vw;
+   height: 1px;
+   background-color: #384c57;
+   
+}
+
+.footer-flex{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.footer-flex a{
+   text-decoration: none;
+   color: white;
+   font-size: .9rem;
+}
+
+.footer-flex a i{
+   margin-right: .4rem;
+}
+
+.font-size-small{
+   font-size: .9rem;
+}
+
+.footer-icons{
+   display: flex;
+   gap: .5rem;
+}
+
+.footer-icons a{
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 3rem;
+   width: 3rem;
+}
+
+.footer-icon-box{
+   height: 3rem;
+   width: 3rem; 
+   background-color: #1E4356;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer-icon-box i{
+   margin: 0 !important;
+}
+
+.footer-icon-box:hover{
+   background-color: #5da0c2;
+}
+
+a{
+   text-decoration: none;
+}
+
+.footer2{
+   background-color: #0B212D;
+   color: rgb(237, 237, 238);
+   text-align: center;
+}
+
+.footer2 a{
+   color:rgba(83, 176, 219, 0.7)
+}
